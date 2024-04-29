@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para calcular a média semestral e verificar a aprovação do aluno
 function calcularMediaSemestral() {
     // Ler as notas das duas avaliações

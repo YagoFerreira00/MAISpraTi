@@ -1,27 +1,15 @@
-// Função para calcular a média ponderada
-function calcularMediaPonderada() {
-    let somaPonderada = 0;
-    let somaPesos = 0;
-    let numero, peso;
+const prompt = require('prompt-sync')();
 
-    // Receber números e pesos até que o número 0 seja digitado
-    while (true) {
-        numero = parseFloat(prompt("Digite um número decimal (ou 0 para encerrar):"));
-        if (numero === 0) {
-            break;
-        }
-        peso = parseFloat(prompt("Digite o peso do número:"));
-        
-        somaPonderada += numero * peso;
-        somaPesos += peso;
-    }
+let somaDosProdutos = 0;
+let somaDosPesos = 0;
+let numero = parseFloat(prompt("Digite um número decimal (ou 0 para sair):"));
 
-    // Calcular a média ponderada
-    let mediaPonderada = somaPonderada / somaPesos;
-
-    // Exibir a média ponderada
-    console.log(`A média ponderada dos números digitados é: ${mediaPonderada.toFixed(2)}`);
+while (numero !== 0) {
+    const peso = parseFloat(prompt("Digite o peso do número:"));
+    somaDosProdutos += numero * peso;
+    somaDosPesos += peso;
+    numero = parseFloat(prompt("Digite um número decimal (ou 0 para sair):"));
 }
 
-// Chamar a função para executar o algoritmo
-calcularMediaPonderada();
+const mediaPonderada = somaDosProdutos / somaDosPesos;
+console.log(`A média ponderada é: ${mediaPonderada}`);

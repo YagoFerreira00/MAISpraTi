@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para ler valores inteiros e indicar se são pares ou ímpares
 function verificarParidade() {
     let numero;

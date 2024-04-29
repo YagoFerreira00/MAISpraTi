@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para ler dois valores e escrevê-los em ordem crescente
 function ordenarValores() {
     // Ler dois valores

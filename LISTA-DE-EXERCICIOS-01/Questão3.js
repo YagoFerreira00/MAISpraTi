@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para realizar as operações com os números inteiros
 function operacoesComInteiros() {
     // Ler quatro números inteiros do usuário

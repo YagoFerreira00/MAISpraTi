@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para mostrar a tabuada de 1 até N
 function mostrarTabuada() {
     for (let i = 1; i <= 5; i++) {

@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para calcular o valor total da compra de maçãs
 function calcularValorTotalMacas() {
     // Ler o número de maçãs compradas

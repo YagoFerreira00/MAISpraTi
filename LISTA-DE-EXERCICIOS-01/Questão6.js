@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para verificar se os lados formam um triângulo e determinar seu tipo
 function verificarTriangulo() {
     // Ler os valores dos lados do triângulo

@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para verificar se um número é primo
 function ehPrimo(numero) {
     for (let divisor = 2; divisor < numero; divisor++) {

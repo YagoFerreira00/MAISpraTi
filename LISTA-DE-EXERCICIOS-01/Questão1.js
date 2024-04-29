@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para converter Celsius para Fahrenheit
 function converterCelsiusParaFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
@@ -8,4 +10,4 @@ let celsius = prompt("Digite a temperatura em Celsius:");
 
 // Converter e exibir o resultado
 let fahrenheit = converterCelsiusParaFahrenheit(celsius);
-alert("A temperatura em Fahrenheit é " + fahrenheit + "°F");
+console.log("A temperatura em Fahrenheit é " + fahrenheit + "°F");

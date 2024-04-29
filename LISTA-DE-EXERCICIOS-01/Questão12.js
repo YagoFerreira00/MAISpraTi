@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para encontrar e exibir números com resto 5 quando divididos por 11
 function numerosComRestoCinco() {
     console.log("Números entre 1000 e 1999 que divididos por 11 dão resto 5:");

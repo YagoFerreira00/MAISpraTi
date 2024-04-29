@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // Função para calcular a média aritmética de números decimais
 function calcularMediaAritmetica() {
     let soma = 0;
