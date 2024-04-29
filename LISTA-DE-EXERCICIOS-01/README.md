@@ -6,7 +6,9 @@ node .\Questão1.js
 NECESSÁRIA A INSTALAÇÃO DOS MODULOS NODE.JS E PROMPT-SYNC!!!
 
 Para instalar o módulo Node.js no terminal, digitar o comando:
+
 npm install -g node
 
 Para instalar o módulo prompt-sync do Node.js no terminal, digitar o comando:
+
 npm install prompt-sync
