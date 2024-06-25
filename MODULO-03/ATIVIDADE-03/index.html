@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+praTi</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="imgs/logo_azul.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="text">
+            <h3>
+                <img src="imgs/logo_branco.svg" width="50" alt="logo">
+                <a href="">
+                    Trilhas
+                </a>
+            </h3>
+            <div class="about-product">
+                <h3>
+                    <a href="#product-description">
+                        Sobre
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#products">
+                        Trilhas
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-description" id="product-description">
+        <h2>Comece a sua jornada e torne-se um profissional de TI</h2>
+        <p>Inscreva-se e inicie as nossas trilhas de conhecimento de maneira gratuita para dar o primeiro passo de sua jornada agora mesmo. Além disso, fique atento aos cursos ofertados durante o ano com vaga limitadas. Confira as inscrições abertas e aproveite as oportunidades.</p>
+        <a href="#contact" class="cta-button">Inscreva-se</a>
+    </div>
+    <hr>
+    <div class="section-product">
+        <h2>Trilhas</h2>
+    </div>
+    
+    <div class="products" id="products">
+    <div class="product-card">
+        <h2>Fundamentos de Programação</h2>
+        <img src="imgs/fundamentos.png" alt="">
+        <div class="button-container">
+            <a href="#" target="_blank">
+                Saiba Mais
+            </a>
+        </div>
+    </div>
+    <div class="product-card">
+        <h2>Design pra quem não é design</h2>
+        <img src="imgs/design.png" alt="">
+        <div class="button-container">
+            <a href="#" target="_blank">
+                Saiba Mais
+            </a>
+        </div>
+    </div>
+    <div class="product-card">
+        <h2>Programação Orientada a Objetos</h2>
+        <img src="imgs/poo.png" alt="">
+        <div class="button-container">
+            <a href="#" target="_blank">
+                Saiba Mais
+            </a>
+        </div>
+    </div>
+</div>
+
+    <section class="contact" id="contact">
+        <h3>Inscreva-se já!</h3>
+        <form id="contact-form">
+            <label for="name">Seu nome</label>
+            <input type="text" id="name" placeholder="Seu nome">
+            <label for="email">Seu email</label>
+            <input type="email" id="email" placeholder="Seu email">
+            <label for="message">Sua mensagem</label>
+            <textarea id="message" placeholder="Sua mensagem"></textarea>
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+    </section>
+
+    <div id="overlay"></div>
+    <div id="result">x</div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
